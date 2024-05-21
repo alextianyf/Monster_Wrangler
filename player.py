@@ -1,7 +1,5 @@
 import pygame
-
-WINDOW_WIDTH = 1200
-WINDOW_HEIGHT = 700
+from config import WINDOW_WIDTH, WINDOW_HEIGHT
 
 class Player(pygame.sprite.Sprite):
     """A player class that the user can control"""

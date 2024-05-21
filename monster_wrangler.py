@@ -1,18 +1,16 @@
 import pygame, random
 from player import Player
 from monster import Monster
+from config import WINDOW_WIDTH, WINDOW_HEIGHT, FPS
 
 #Initialize pygame
 pygame.init()
 
-#Set display window
-WINDOW_WIDTH = 1200
-WINDOW_HEIGHT = 700
+
 display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Monster Wrangler")
 
-#Set FPS and Clock
-FPS = 60
+#Clock
 clock = pygame.time.Clock()
 
 #Define Classes

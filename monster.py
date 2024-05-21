@@ -1,7 +1,5 @@
 import pygame, random
-
-WINDOW_WIDTH = 1200
-WINDOW_HEIGHT = 700
+from config import WINDOW_WIDTH, WINDOW_HEIGHT
 
 class Monster(pygame.sprite.Sprite):
     """A class to create enemy monster objects"""
